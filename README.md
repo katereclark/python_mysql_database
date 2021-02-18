@@ -8,7 +8,7 @@ Here is a demo of my software: [Software Demo Video](http://youtube.link.goes.he
 
 # Relational Database
 
-I created this relational database using MySQL commands in Python code using the mysql.connector module. The database is called employees_info and contains two tables: employees and departments. The employees table contains the fields id (primary key), first_name, last_name, date_hired, hourly_wage, and departments_id (foreign key). The departments table contains the fields id (primary key) and dept_name. The tables can be joined using the employees.departments_id and departments.id.
+I created this relational database using MySQL commands in Python code using the mysql.connector module. The database is called employees_info and contains two tables: employees and departments. The employees table contains the fields: id (primary key), first_name, last_name, date_hired, hourly_wage, and departments_id (foreign key). The departments table contains the fields: id (primary key) and dept_name. The tables can be joined using the employees.departments_id and departments.id.
 
 # Development Environment
 
