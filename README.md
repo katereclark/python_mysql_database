@@ -25,7 +25,6 @@
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [MySQL Python Connector Guide](https://dev.mysql.com/doc/connector-python/en/)
 * [Basic SQL Commands](https://www.w3schools.com/sql/)
 * [Using Python MySQL](https://www.w3schools.com/python/python_mysql_getstarted.asp)
