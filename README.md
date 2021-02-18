@@ -2,9 +2,7 @@
 
 I created this software to increase my understanding of how to integrate SQL commands into Python code and how to connect to a SQL server. This program connects to the MySQL local server and adds an employees_info database and an employees table and a departments table if they are not already present. It allows a user to display, add, edit, and remove employees and to display and add departments. The user can select an option from the menu in the terminal and follow the prompts to completion. My purpose for building this software is to create and maintain a relational database that imitates database of employees and departments and stores each individual's information.
 
-**{It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how you created the Relational Database.}**
-
-Here is a demo of my software: [Software Demo Video](http://youtube.link.goes.here)
+Here is a demo of my software: [Software Demo Video](https://youtu.be/Pipy8jTu9k4)
 
 # Relational Database
 
