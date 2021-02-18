@@ -1,20 +1,20 @@
 # Overview
 
-{Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I created this software to increase my understanding of how to integrate SQL commands into Python code and how to connect to a SQL server.
 
-{Provide a description the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.}
+**{Provide a description the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.}**
 
-{Describe your purpose for writing this software.}
+My purpose for building this software is to create and maintain a relational database that imitates database of employees and departments and stores each individual's information.
 
-{It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
+**{It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how you created the Relational Database.}**
 
-[Software Demo Video](http://youtube.link.goes.here)
+Here is a demo of my software: [Software Demo Video](http://youtube.link.goes.here)
 
 # Relational Database
 
-{Describe the relational database you are using.}
+I created this relational database using MySQL.
 
-{Describe the structure (tables) of the relational database that you created.}
+**{Describe the structure (tables) of the relational database that you created.}**
 
 # Development Environment
 
