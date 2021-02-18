@@ -27,7 +27,7 @@
 
 * [MySQL Python Connector Guide](https://dev.mysql.com/doc/connector-python/en/)
 * [Basic SQL Commands](https://www.w3schools.com/sql/)
-* [Using Python MySQL](https://www.w3schools.com/python/python_mysql_getstarted.asp)
+* [Using Python with MySQL](https://www.w3schools.com/python/python_mysql_getstarted.asp)
 
 # Future Work
 
