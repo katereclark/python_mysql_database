@@ -1,10 +1,6 @@
 # Overview
 
-I created this software to increase my understanding of how to integrate SQL commands into Python code and how to connect to a SQL server.
-
-**{Provide a description the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.}**
-
-My purpose for building this software is to create and maintain a relational database that imitates database of employees and departments and stores each individual's information.
+I created this software to increase my understanding of how to integrate SQL commands into Python code and how to connect to a SQL server. This program connects to the MySQL local server and adds an employees_info database and an employees table and a departments table if they are not already present. It allows a user to display, add, edit, and remove employees and to display and add departments. The user can select an option from the menu in the terminal and follow the prompts to completion. My purpose for building this software is to create and maintain a relational database that imitates database of employees and departments and stores each individual's information.
 
 **{It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how you created the Relational Database.}**
 
@@ -12,16 +8,14 @@ Here is a demo of my software: [Software Demo Video](http://youtube.link.goes.he
 
 # Relational Database
 
-I created this relational database using MySQL.
-
-**{Describe the structure (tables) of the relational database that you created.}**
+I created this relational database using MySQL commands in Python code using the mysql.connector module. The database is called employees_info and contains two tables: employees and departments. The employees table contains the fields id (primary key), first_name, last_name, date_hired, hourly_wage, and departments_id (foreign key). The departments table contains the fields id (primary key) and dept_name. The tables can be joined using the employees.departments_id and departments.id.
 
 # Development Environment
 
 * Visual Studio Code
 * Python 3.8.5 32-bit
 * Git / GitHub
-* mysql.connector module - allows a user to connect to their local MySQL server.
+* mysql.connector module - allows a user to connect to their local MySQL server
 
 # Useful Websites
 
