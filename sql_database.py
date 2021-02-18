@@ -106,7 +106,7 @@ def main():
             print(cursor.rowcount, "record inserted.")
         
         elif choice == "7":
-            # Display Department Names and Employee Names.
+            # Displays Department Names and Employee Names.
             cursor.execute("SELECT departments.dept_name AS 'Department Name', \
             GROUP_CONCAT(DISTINCT CONCAT(' ', employees.first_name, ' ', employees.last_name)) \
             FROM departments \
@@ -173,7 +173,7 @@ def department_id_is_valid(cursor, departments_id):
     else:
         return True
 
-# Displays all fo the employees and their information.
+# Displays all of the employees and their information.
 def display_employees(cursor):
 
     cursor.execute("SELECT * FROM employees")
@@ -181,7 +181,7 @@ def display_employees(cursor):
     for record in cursor.fetchall():
         print("{:<5}  {:<15}  {:<15} {:<15}  ${:<15}  {:<15}".format(record[0], record[1], record[2], record[3].strftime("%Y-%m-%d"), record[4], record[5]))
 
-# Displays all fo the departments and their IDs.
+# Displays all of the departments and their IDs.
 def display_departments(cursor):
 
     cursor.execute("SELECT * FROM departments")
