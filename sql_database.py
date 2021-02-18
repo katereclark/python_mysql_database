@@ -108,9 +108,10 @@ def main():
         elif choice == "7":
             # Display Department Names and Employee Names.
             cursor.execute("SELECT departments.dept_name AS 'Department Name', \
-            CONCAT(employees.first_name, ' ', employees.last_name) \
+            GROUP_CONCAT(DISTINCT CONCAT(' ', employees.first_name, ' ', employees.last_name)) \
             FROM departments \
             INNER JOIN employees ON departments.id = employees.departments_id \
+            GROUP BY dept_name \
             ORDER BY departments.dept_name")
 
             record_list = []
