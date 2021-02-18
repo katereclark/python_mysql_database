@@ -33,4 +33,4 @@
 
 * Add the capability to remove and modify departments as well.
 * Have each department contain all of the employees rather than repeating the department for every employee in the inner join.
-* Put in more fields in the employees and departments tables, like gender, availability, department abbreviation, etc.
+* Put in more fields in the employees and departments tables, like gender, availability, department abbreviations, etc.
