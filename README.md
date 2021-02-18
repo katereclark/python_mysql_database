@@ -18,19 +18,20 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Visual Studio Code
+* Python 3.8.5 32-bit
+* Git / GitHub
+* mysql.connector module - allows a user to connect to their local MySQL server.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [MySQL Python Connector Guide](https://dev.mysql.com/doc/connector-python/en/)
+* [Basic SQL Commands](https://www.w3schools.com/sql/)
+* [Using Python MySQL](https://www.w3schools.com/python/python_mysql_getstarted.asp)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Add the capability to remove and modify departments as well.
+* Have each department contain all of the employees rather than repeating the department for every employee in the inner join.
+* Put in more fields in the employees and departments tables, like gender, availability, department abbreviation, etc.
